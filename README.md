@@ -16,7 +16,7 @@ Este é um aplicativo de blog web baseado em Spring Boot que permite aos usuári
 ## Tecnologias Utilizadas
 
 - **Java 17**
-- **Spring Boot 3.x**
+- **Spring Boot**
 - **Spring Data JPA**
 - **Thymeleaf**
 - **MySQL**
@@ -40,9 +40,26 @@ git clone https://github.com/anaisa-teodoro/bloguinho.git
 
 ### 2. Configuração do Banco de Dados
 Crie um banco de dados MySQL chamado blogappdbweb.
-Atualize as credenciais do banco de dados no arquivo src/main/resources/application.properties:
+Atualize as credenciais do banco de dados no arquivo src/main/resources/application.properties.
+
 ### 3. Construir e Executar
-O aplicativo estará disponível em http://localhost:8080.
+O aplicativo estará disponível em http://localhost:8080/login.
+
+Ao realizar teste use um dos dois usuários abaixo:
+
+## Credenciais de Acesso
+
+O sistema possui dois usuários pré-configurados para fins de teste. Utilize as credenciais abaixo para acessar o sistema:
+
+### Administrador
+- **Login:** admin
+- **Senha:** adminpassword
+
+### Usuário Comum
+- **Login:** user
+- **Senha:** userpassword
+
+> **Nota:** As senhas estão configuradas apenas para fins de desenvolvimento e teste. Em produção, certifique-se de utilizar um sistema de gerenciamento de usuários seguro e senhas fortes.
 
 ### 4. Estrutura do Projeto
 
@@ -70,10 +87,10 @@ O aplicativo utiliza uma tabela `TB_POST` com as seguintes colunas:
 
 ### 6. Features
 
-- terminar documentação do springdoc;
-- deixar no modo mais acesscivel a interface;
-- realizar o deploy em alguma plataforma;
+- Terminar a documentação no SpringDoc;
+- Tornar a interface mais acessível;
+- Realizar o deploy em alguma plataforma;
 
-### 🌟 Aprendizados
+### 🌟 Exercício de Aprendizagem
 
-Realizados esse bloguinho nas aulas do Devs2Blu ⭐ 2025.
+Realizamos este bloguinho nas aulas do Devs2Blu ⭐ 2025.
